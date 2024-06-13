@@ -11,7 +11,6 @@ body {
 }
 
 h1,
-h2,
 h3 {
     text-align: center;
     margin: 0;
@@ -90,11 +89,19 @@ p {
     text-decoration: underline;
 }
 
-@media(max-width:768px) {
+@media(max-width:576px) {
     h1 {
        font-size: 70px !important;
     }
-    h2{
+    h2 {
         font-size: 35px !important;
+        text-align: center;
+    }
+    .btn-centered {
+        display: block !important;
+        margin: 0 auto !important;
+    }
+    .paragraph-responsive {
+        text-align: center;
     }
 }
